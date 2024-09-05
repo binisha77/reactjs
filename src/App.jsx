@@ -6,11 +6,13 @@ function App() {
   
 
   return (
-    <browesrRouter>
+    <BrowserRouter>
     <Routes>
-      <Route/>
+      <Route path='/' element={<h1>hello</h1>}/>
+<Route path='/about' element={<h1>hehe</h1>}/>
+<Route path='/contact' element={<h1>hi</h1>}/>
     </Routes>
-    </browesrRouter>
+    </BrowserRouter>
   )
 }
 
