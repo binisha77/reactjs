@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './Home.css'
+import Button from './Button'
 function Home(){
 
  return (
@@ -9,12 +11,12 @@ function Home(){
         </div>
         <div className="menu">
             <a href="#">Home</a>
-            <Link to="/about">About</Link>
+           <Link to="/about">About</Link>
             <a href="#">Services</a>
             <a href="#">Contact</a>
         </div>
     </div>
-
+<Button/>
     <div className="main-content">
         <h1>Welcome to My Website!</h1>
         <p>This is a simple design featuring a navbar and some content in between.</p>
